@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Onboarding Page</title>
+    <style>
+     
+        body {
+            background-image: url('onboard.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+margin: 0;
+        }
+
+        .get-started-btn {
+            background-color: #ffffff; 
+            color: #00008B; 
+            border: none;
+           
+            padding: 12px 80px;
+            font-size: 25px;
+            font-weight: bold;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            margin-top: 350px; 
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            margin-left: 500px;
+        }
+
+
+        .get-started-btn:hover {
+            background-color: #00008B; 
+            color: #ffffff; 
+        }
+
+
+ @media screen and (max-width: 768px) {
+            .get-started-btn {
+                padding: 12px 40px; /* smaller padding */
+                font-size: 18px; /* smaller text */
+                margin-top: 200px; /* adjust spacing */
+                margin-left: 0; /* center the button */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .get-started-btn {
+                width: 80%; /* make button fill most of the screen */
+                padding: 12px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+   <a href="signup.html"> 
+
+    <button class="get-started-btn">Get Started!</button></a>
+
+</body>
+</html>
